@@ -75,3 +75,14 @@ Deploying autoregressive pipelines across enterprise-scale cloud infrastructures
 | **[High-Throughput Enterprise Chat Infrastructures (vLLM / TensorRT-LLM)](details/high_throughput_serving.md)** | **Application:** Serves as the high-volume orchestration engine powering commercial AI chat assistants. Paged virtual memory managers and fused compilation kernels maximize hardware concurrency, serving thousands of concurrent users per node stably. | 2023 | [Kwon et al., 2023](https://arxiv.org/abs/2309.06180) |
 | **[Real-Time Autonomous Software Coding Assistants (Copilot / Cascade)](details/real_time_coding.md)** | **Application:** Drives real-time source code autocomplete lines inside IDE text editors. Because programming syntaxes feature high repetition and rigid keyword structures (`def`, `import`, `return`), lookahead and speculative decoding engines achieve near-perfect token draft acceptance rates, rendering large code blocks instantly. | 2021 | [Chen et al., 2021](https://arxiv.org/abs/2107.03374) |
 | **[On-Device Edge Model Inference (Llama.cpp / GGUF Local Layouts)](details/on_device_inference.md)** | **Application:** Runs localized reasoning models on consumer-grade hardware. | 2023 | [Gerganov, 2023 (llama.cpp)](https://github.com/ggerganov/llama.cpp) | 
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Auto-Regressive-Decoding&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Auto-Regressive-Decoding&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Auto-Regressive-Decoding&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Auto-Regressive-Decoding&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
