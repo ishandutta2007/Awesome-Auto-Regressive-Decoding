@@ -1,11 +1,20 @@
-# Awesome-Auto-Regressive-Decoding
-## Autoregressive Decoding in AI: Evolution, Variants, Types, & Applications
+# 🚀 Awesome-Auto-Regressive-Decoding
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Autoregressive Decoding Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+## 📖 Autoregressive Decoding in AI: Evolution, Variants, Types, & Applications
 
 Autoregressive Decoding is the fundamental text-generation paradigm utilized by modern generative Large Language Models (LLMs) and multi-modal transformers. In an autoregressive system, text generation is handled sequentially, token-by-token. The model treats its own historical outputs as the absolute prompt context for its subsequent steps, computing a forward pass to output a single token at index $t$ by evaluating all prior tokens at indices $< t$. Because each step relies on loading the entire multi-billion parameter model from memory, autoregressive decoding is highly memory-bandwidth bound, driving a rich ecosystem of hardware optimizations, caching layers, and predictive decoding strategies to scale generation throughput.
 
 ---
 
-## 1. The Chronological Evolution
+## ⏳ 1. The Chronological Evolution
 
 The implementation of autoregressive sequence generation has transitioned from basic greedy calculations to memory-pinned cache pools and parallelized, predictive drafting pipelines.
 
@@ -24,7 +33,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional Search & Sampling Variants
+## 🔍 2. Core Functional Search & Sampling Variants
 
 Once the autoregressive layer outputs an unnormalized log-odds vector (logits), distinct decoding sampling parameters dictate how a token ID is selected.
 
@@ -36,7 +45,7 @@ Once the autoregressive layer outputs an unnormalized log-odds vector (logits), 
 
 ---
 
-## 3. Structural Sequence Verification & Acceleration Types
+## ⚡ 3. Structural Sequence Verification & Acceleration Types
 
 To overcome the heavy execution bottlenecks of autoregressive loops, engineering pipelines leverage specialized runtime hardware acceleration layers.
 
@@ -48,7 +57,7 @@ To overcome the heavy execution bottlenecks of autoregressive loops, engineering
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## 🛠️ 4. Production Engineering Challenges & Mitigations
 
 Deploying autoregressive pipelines across enterprise-scale cloud infrastructures introduces intense memory bottlenecks and time-to-first-token latency spikes.
 
@@ -59,7 +68,7 @@ Deploying autoregressive pipelines across enterprise-scale cloud infrastructures
 
 ---
 
-## 5. Frontier Real-World AI Serving Applications
+## 🌐 5. Frontier Real-World AI Serving Applications
 
 | Serving Application | Key Details | Year | First-Used Paper / Reference |
 | :--- | :--- | :--- | :--- |
