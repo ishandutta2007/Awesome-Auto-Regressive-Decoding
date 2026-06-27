@@ -9,8 +9,9 @@ Autoregressive Decoding is the fundamental text-generation paradigm utilized by 
 
 The implementation of autoregressive sequence generation has transitioned from basic greedy calculations to memory-pinned cache pools and parallelized, predictive drafting pipelines.
 
+```mermaid
 [Greedy & Random Sampling (2018)] ----> [Paged KV Cache Serving (2023)] ----> [Speculative & Tree-Based Decoding (2024+)](HBM Stalls / Redundant Math)            (Dynamic Virtual Memory Allocation)          (Parallel Token Drafting & Verification)
-
+```
 
 *   **The Baseline Sampling Era (Pre-2023)**
     *   *Concept:* The entry-level standard. Text generation calculated tokens sequentially using basic heuristic search methods (Greedy, Top-k, Top-p). 
